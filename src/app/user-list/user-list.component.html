@@ -1,0 +1,3 @@
+<h2>User List</h2>
+<p *ngFor="let user of user;let i=index"[ngStyle]="{color:(i+1)%2===0?'red':'green'}">
+{{user.firstName}}{{user.lastName}}<button (click)="deleteuser(user)">Delete</button></p>

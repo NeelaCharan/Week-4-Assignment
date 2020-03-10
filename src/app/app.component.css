@@ -1,0 +1,20 @@
+h3{
+ color: red;
+ font-size: 30px;
+}
+h4{
+    color: green;
+    font-size: 30px;
+}
+
+td{
+    text-align:left;
+    font-weight: bold;
+}
+
+.adduser{
+    float:left
+}
+.userlist{
+ float: right;
+}
